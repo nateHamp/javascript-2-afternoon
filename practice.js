@@ -15,6 +15,11 @@
 */
 
 //Code here
+var me = {
+  name:'Nathan',
+  age:'35'
+  };
+  alert(me.name);
 
 
 
@@ -26,6 +31,14 @@
 */
 
 //Code here
+var favoriteThings = {
+  band:'Fuel',
+  food:'Chicken',
+  person:'Mom',
+  book:'Canticle',
+  movie:'V for Vendetta',
+  holiday:'4th of July'
+};
 
 
 
@@ -34,6 +47,8 @@
 */
 
 //Code here
+favoriteThings.car = 'SRT';
+favoriteThings.brand = 'Dodge';
 
 
 
@@ -42,6 +57,8 @@
 */
 
 //Code here
+favoriteThings.food = 'Chicken Nuggets';
+favoriteThings.book = 'Harry Potter';
 
 
 
@@ -56,7 +73,12 @@
 */
 
 //Code here
-
+var item = 'firstPocket';
+var backPack = {
+  
+};
+backPack[item] = 'chapstick';
+backPack.color = 'Grey';
 
 
 /*
@@ -64,6 +86,7 @@
 */
 
 //Code here
+alert(backPack);
 
 
 
@@ -74,6 +97,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
+console.log(backPack);
 
 
 
@@ -97,6 +121,8 @@ var user2 = {
 */
 
 //Code Here
+user2.name = 'Tyler S. McGinnis';
+user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 
